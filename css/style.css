@@ -49,6 +49,11 @@ body {
     color: #808080;
     font-size: 18px;
 }
+
+.green-text  {
+    color: #7cbb02;
+    font-size: 25px;
+}
 /* FINE COMMON */
 
 /* HEADER */
@@ -170,4 +175,45 @@ section.bg-grey {
 
 /* SEZIONE CONTENUTI */
 
+.content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.content img {
+    height: 150px;
+}
+
+.content h4 {
+    margin: 20px 0;
+}
+
+.content hr {
+    width: 15%;
+    margin: 20px auto;
+}
+
+.content-left,
+.content-right {
+    width: 30%;
+}
+
+.content-center {
+    width: 30%;
+    margin: 0 5%;
+}
+
 /* FINE SEZIONE CONTENUTI */
+
+/* hr */
+hr {
+    width: 98%;
+    margin: 0 auto;
+}
+/* fine hr */
+
+/* SEZIONE MONTAGNA */
+.mountain {
+    height: 400px;
+}
+/* FINE SEZIONE MONTAGNA */
