@@ -48,11 +48,13 @@ body {
 .grey-text {
     color: #808080;
     font-size: 18px;
+    line-height: 25px;
 }
 
 .green-text  {
     color: #7cbb02;
     font-size: 25px;
+    line-height: 30px;
 }
 /* FINE COMMON */
 
