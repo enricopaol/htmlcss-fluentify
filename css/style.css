@@ -11,3 +11,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /* FINE COMMON */
+
+/* HEADER */
+header {
+    height: 550px;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 118% 105%;
+}
+/* FINE HEADER */
