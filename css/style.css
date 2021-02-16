@@ -32,9 +32,13 @@ body {
 }
 
 .button {
+    display: inline-block;
     background-color: #7cbb02;
-    padding: 25px 15px;
+    padding: 20px 15px;
     border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 /* FINE COMMON */
 
@@ -78,8 +82,18 @@ header .container {
     border-radius: 5px;
 }
 
+.login:hover {
+    border-color: rgb(238, 255, 0);
+}
+
 .menu-right .button {
     padding: 10px 10px;
+    display: inline;
+    font-size: 11px;
+}
+
+.menu-right .button:hover {
+    color: white;
 }
 /* Fine Menu a Destra */
 
@@ -96,7 +110,25 @@ nav li a {
     color: #fff;
     font-size: 11px;
 }
+
+nav li a:hover {
+    color:rgb(238, 255, 0);
+}
 /* Fine Visualizzazione Generale Menu */
 
+/* Teaser */
+.teaser {
+    width: 52%;
+    margin-top: 185px;
+}
 
+.teaser h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.teaser .button {
+    margin-top: 15px;
+}
+/* Fine Teaser */
 /* FINE HEADER */
